@@ -1,0 +1,14 @@
+{
+  "framework": "vite",
+  "functions": {
+    "api/generate-report.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/((?!api/|assets/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
