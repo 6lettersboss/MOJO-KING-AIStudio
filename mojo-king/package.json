@@ -1,0 +1,27 @@
+{
+  "name": "mojo-king",
+  "version": "1.0.0",
+  "description": "MOJO KING - Unlock Your Primal Potential",
+  "scripts": {
+    "start": "echo 'Run a local dev server pointing to index.html'",
+    "build": "echo 'This step would build your web assets for production'",
+    "sync:capacitor": "npx cap sync",
+    "open:ios": "npx cap open ios",
+    "open:android": "npx cap open android"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "html2pdf.js": "^0.10.1",
+    "recharts": "^3.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/ios": "^6.0.0",
+    "typescript": "^5.0.0"
+  },
+  "author": "MOJO KING Inc.",
+  "license": "UNLICENSED"
+}
